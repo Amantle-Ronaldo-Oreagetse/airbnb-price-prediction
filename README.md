@@ -169,6 +169,17 @@ Automated tests were implemented to check model loading, input validation and pr
 
 All ten saved models also passed reproducibility testing against their original final-test predictions.
 
+## Model Downloads
+
+The ten final city-specific trained models are available through the
+[GitHub Releases](https://github.com/Amantle-Ronaldo-Oreagetse/airbnb-price-prediction/releases/tag/v1.0.0) page.
+
+Download the `.joblib` file corresponding to the city of interest and
+place it in `models/final_models/` before running the inference script.
+
+The models cover Bangkok, Cape Town, Hong Kong, Istanbul, Mexico City,
+New York, Paris, Rio de Janeiro, Rome, and Sydney.
+
 ## 5. Final Model Performance
 
 The final models were evaluated using:
