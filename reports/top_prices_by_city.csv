@@ -1,0 +1,51 @@
+listing_id,city,property_type,room_type,accommodates,bedrooms,price
+3410763,Bangkok,Private room in apartment,Private room,2,1.0,300177
+13033135,Bangkok,Private room in house,Private room,4,1.0,300000
+12056763,Bangkok,Entire house,Entire place,4,3.0,300000
+29970931,Bangkok,Entire apartment,Entire place,2,,231047
+41578696,Bangkok,Entire villa,Entire place,10,5.0,180124
+24231503,Cape Town,Entire villa,Entire place,10,6.0,180000
+36421447,Cape Town,Entire villa,Entire place,10,5.0,180000
+29391240,Cape Town,Entire villa,Entire place,10,5.0,157500
+39296889,Cape Town,Entire villa,Entire place,10,5.0,155000
+46589921,Cape Town,Entire house,Entire place,12,6.0,154212
+29928743,Hong Kong,Shared room in apartment,Shared room,4,1.0,83665
+29890300,Hong Kong,Private room in condominium,Private room,2,1.0,66666
+16670700,Hong Kong,Shared room in apartment,Shared room,16,1.0,35000
+47182436,Hong Kong,Entire apartment,Entire place,8,8.0,31000
+42341542,Hong Kong,Private room in apartment,Private room,2,2.0,30000
+14658972,Istanbul,Private room in bed and breakfast,Private room,2,1.0,179532
+16111771,Istanbul,Room in boutique hotel,Private room,2,1.0,179532
+16111705,Istanbul,Room in boutique hotel,Private room,2,1.0,179532
+16401723,Istanbul,Room in boutique hotel,Private room,2,1.0,179153
+45537032,Istanbul,Private room in bed and breakfast,Private room,2,1.0,148441
+47885441,Mexico City,Room in boutique hotel,Private room,4,1.0,499000
+23895520,Mexico City,Private room in house,Private room,4,2.0,350000
+38733276,Mexico City,Private room in apartment,Private room,1,1.0,206499
+41615363,Mexico City,Entire house,Entire place,4,2.0,180000
+23920872,Mexico City,Entire apartment,Entire place,8,4.0,163502
+13925864,New York,Entire apartment,Entire place,4,2.0,10000
+39100961,New York,Room in boutique hotel,Private room,2,1.0,10000
+22985168,New York,Entire condominium,Entire place,2,1.0,10000
+39574087,New York,Room in hotel,Private room,2,1.0,10000
+31219800,New York,Shared room in loft,Shared room,1,1.0,10000
+42056288,Paris,Entire apartment,Entire place,2,1.0,12000
+41425965,Paris,Entire apartment,Entire place,10,4.0,11599
+37250543,Paris,Entire apartment,Entire place,10,5.0,10250
+34008067,Paris,Entire apartment,Entire place,4,1.0,9631
+47533762,Paris,Entire apartment,Entire place,2,,9280
+13879989,Rio de Janeiro,Shared room in house,Shared room,5,1.0,625216
+39212507,Rio de Janeiro,Private room in bed and breakfast,Private room,2,1.0,134562
+43553252,Rio de Janeiro,Entire apartment,Entire place,8,3.0,129233
+25369030,Rio de Janeiro,Entire apartment,Entire place,4,2.0,129080
+47332828,Rio de Janeiro,Entire apartment,Entire place,8,4.0,129080
+35081594,Rome,Entire condominium,Entire place,16,8.0,10571
+39797064,Rome,Room in boutique hotel,Private room,3,1.0,10000
+39797066,Rome,Room in boutique hotel,Private room,3,1.0,10000
+39797069,Rome,Room in boutique hotel,Private room,3,1.0,10000
+42947212,Rome,Room in boutique hotel,Private room,1,1.0,10000
+10111788,Sydney,Private room in house,Private room,2,1.0,28613
+45551355,Sydney,Boat,Entire place,10,5.0,23571
+41849365,Sydney,Private room in apartment,Private room,3,1.0,15000
+19335448,Sydney,Private room in house,Private room,1,,14589
+20010285,Sydney,Private room in apartment,Private room,1,,14568

@@ -1,0 +1,11 @@
+city,listing_count,unique_property_types,unique_neighbourhoods,unique_room_types,missing_property_type,missing_neighbourhood
+Bangkok,19361,87,50,4,0,0
+Cape Town,19086,83,93,4,0,0
+Hong Kong,7087,76,18,4,0,0
+Istanbul,24519,96,39,4,0,0
+Mexico City,20065,81,16,4,0,0
+New York,37012,75,220,4,0,0
+Paris,64690,67,20,4,0,0
+Rio de Janeiro,26615,87,151,4,0,0
+Rome,27647,77,15,4,0,0
+Sydney,33630,89,38,4,0,0

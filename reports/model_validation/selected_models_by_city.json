@@ -1,0 +1,92 @@
+[
+    {
+        "city":"bangkok",
+        "model":"Random Forest",
+        "configuration":"Configuration 1",
+        "target_transform":"log",
+        "MAE":1149.2405560863,
+        "RMSE":7277.6521830044,
+        "R2":0.0522586927
+    },
+    {
+        "city":"cape_town",
+        "model":"Random Forest",
+        "configuration":"Configuration 1",
+        "target_transform":"log",
+        "MAE":1114.2191441821,
+        "RMSE":5665.1733226583,
+        "R2":0.348656169
+    },
+    {
+        "city":"hong_kong",
+        "model":"Random Forest",
+        "configuration":"Configuration 1",
+        "target_transform":"log",
+        "MAE":422.2161011341,
+        "RMSE":1912.8106948777,
+        "R2":0.0786655417
+    },
+    {
+        "city":"istanbul",
+        "model":"Random Forest",
+        "configuration":"Configuration 1",
+        "target_transform":"log",
+        "MAE":284.7568928372,
+        "RMSE":2393.9024385897,
+        "R2":0.0201862603
+    },
+    {
+        "city":"mexico_city",
+        "model":"Random Forest",
+        "configuration":"Configuration 1",
+        "target_transform":"log",
+        "MAE":462.5388607061,
+        "RMSE":2045.2508588303,
+        "R2":0.1146427093
+    },
+    {
+        "city":"new_york",
+        "model":"Random Forest",
+        "configuration":"Configuration 1",
+        "target_transform":"log",
+        "MAE":53.6996281604,
+        "RMSE":227.636246433,
+        "R2":0.2064878939
+    },
+    {
+        "city":"paris",
+        "model":"HistGradientBoosting",
+        "configuration":"Configuration 2",
+        "target_transform":"log",
+        "MAE":39.8880172,
+        "RMSE":205.6085846501,
+        "R2":0.1392924123
+    },
+    {
+        "city":"rio_de_janeiro",
+        "model":"Random Forest",
+        "configuration":"Configuration 1",
+        "target_transform":"log",
+        "MAE":538.4484657049,
+        "RMSE":4764.3332275626,
+        "R2":0.037951397
+    },
+    {
+        "city":"rome",
+        "model":"Random Forest",
+        "configuration":"Configuration 2",
+        "target_transform":"log",
+        "MAE":44.5535453869,
+        "RMSE":268.3753235619,
+        "R2":0.0738728863
+    },
+    {
+        "city":"sydney",
+        "model":"HistGradientBoosting",
+        "configuration":"Configuration 2",
+        "target_transform":"log",
+        "MAE":93.5642206495,
+        "RMSE":462.0978924839,
+        "R2":0.2224953412
+    }
+]

@@ -1,0 +1,11 @@
+city,model,target_transform,MAE,RMSE,R2,model_file
+bangkok,Random Forest,Log,1077.229312620814,7741.809061738257,0.053271883528855146,bangkok_best_model.joblib
+cape_town,Random Forest,Log,994.4332382542334,4025.3480272453976,0.4381351736044976,cape_town_best_model.joblib
+hong_kong,Random Forest,Log,380.9640013826923,2535.606403874756,0.046455743513199255,hong_kong_best_model.joblib
+istanbul,HistGradientBoosting,Log,400.0348925109952,4836.356670643794,0.007966557906040173,istanbul_best_model.joblib
+mexico_city,HistGradientBoosting,Log,554.0710457854847,3366.286892383053,0.06627649081476861,mexico_city_best_model.joblib
+new_york,Random Forest,Log,51.98404335095998,214.04875159169154,0.2113261063271542,new_york_best_model.joblib
+paris,Random Forest,Log,39.56397589486708,201.9468190479562,0.1458065181129361,paris_best_model.joblib
+rio_de_janeiro,HistGradientBoosting,Log,520.7752601874853,4288.857263896826,0.020797972113298147,rio_de_janeiro_best_model.joblib
+rome,Random Forest,Log,44.94978819176239,261.287834835452,0.22581238513643953,rome_best_model.joblib
+sydney,HistGradientBoosting,Log,90.6181691173067,487.34618202872,0.1861676398206049,sydney_best_model.joblib

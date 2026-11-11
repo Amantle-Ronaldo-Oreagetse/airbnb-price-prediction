@@ -1,0 +1,42 @@
+{
+    "target": "price",
+    "numeric_features": [
+        "accommodates",
+        "bedrooms",
+        "bedrooms_missing",
+        "minimum_nights",
+        "maximum_nights",
+        "amenities_count",
+        "latitude",
+        "longitude"
+    ],
+    "categorical_features": [
+        "property_type",
+        "room_type",
+        "neighbourhood",
+        "instant_bookable"
+    ],
+    "identifier_columns": [
+        "listing_id",
+        "host_id"
+    ],
+    "excluded_from_model": [
+        "listing_id",
+        "host_id",
+        "city",
+        "name",
+        "amenities",
+        "review_scores_rating",
+        "review_scores_accuracy",
+        "review_scores_cleanliness",
+        "review_scores_checkin",
+        "review_scores_communication",
+        "review_scores_location",
+        "review_scores_value"
+    ],
+    "target_definition": "Advertised listing price in the city's local currency.",
+    "prediction_scenario": "Estimate listing price using property characteristics and location information.",
+    "currency_strategy": "Separate models for each city to avoid mixing currencies.",
+    "zero_price_policy": "Exclude zero-price listings from supervised modelling.",
+    "missing_bedrooms_policy": "Retain missingness indicator; impute using training data only."
+}

@@ -1,0 +1,61 @@
+# ==================================================
+# PYTHON ENVIRONMENT
+# ==================================================
+
+venv/
+.venv/
+env/
+
+# ==================================================
+# PYTHON CACHE
+# ==================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==================================================
+# JUPYTER NOTEBOOKS
+# ==================================================
+
+.ipynb_checkpoints/
+
+# ==================================================
+# EDITOR AND OPERATING SYSTEM FILES
+# ==================================================
+
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ==================================================
+# RAW DATASETS
+# ==================================================
+
+data/raw/*
+!data/raw/.gitkeep
+
+# ==================================================
+# TEMPORARY FILES
+# ==================================================
+
+*.tmp
+*.log
+
+
+# Trained model binaries (distributed separately through GitHub Releases)
+models/*.joblib
+models/final_models/*.joblib
+
+# PROCESSED LISTING-LEVEL DATASETS
+data/processed/city_datasets/
+
+
+# LISTING-LEVEL REPORT EXPORTS
+reports/highest_100_price_records.csv
+reports/high_price_records_by_city.csv
+reports/zero_price_records.csv
+reports/error_analysis/*_prediction_errors.csv
+reports/error_analysis/largest_prediction_errors.csv
+reports/final_test/*_test_predictions.csv
+reports/model_evaluation/*_best_predictions.csv

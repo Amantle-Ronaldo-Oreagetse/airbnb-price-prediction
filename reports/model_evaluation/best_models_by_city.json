@@ -1,0 +1,82 @@
+{
+    "bangkok": {
+        "model": "Random Forest",
+        "target_transform": "Log",
+        "MAE": 1077.229312620814,
+        "RMSE": 7741.809061738257,
+        "R2": 0.053271883528855146,
+        "model_file": "bangkok_best_model.joblib"
+    },
+    "cape_town": {
+        "model": "Random Forest",
+        "target_transform": "Log",
+        "MAE": 994.4332382542334,
+        "RMSE": 4025.3480272453976,
+        "R2": 0.4381351736044976,
+        "model_file": "cape_town_best_model.joblib"
+    },
+    "hong_kong": {
+        "model": "Random Forest",
+        "target_transform": "Log",
+        "MAE": 380.9640013826923,
+        "RMSE": 2535.606403874756,
+        "R2": 0.046455743513199255,
+        "model_file": "hong_kong_best_model.joblib"
+    },
+    "istanbul": {
+        "model": "HistGradientBoosting",
+        "target_transform": "Log",
+        "MAE": 400.0348925109952,
+        "RMSE": 4836.356670643794,
+        "R2": 0.007966557906040173,
+        "model_file": "istanbul_best_model.joblib"
+    },
+    "mexico_city": {
+        "model": "HistGradientBoosting",
+        "target_transform": "Log",
+        "MAE": 554.0710457854847,
+        "RMSE": 3366.286892383053,
+        "R2": 0.06627649081476861,
+        "model_file": "mexico_city_best_model.joblib"
+    },
+    "new_york": {
+        "model": "Random Forest",
+        "target_transform": "Log",
+        "MAE": 51.98404335095998,
+        "RMSE": 214.04875159169154,
+        "R2": 0.2113261063271542,
+        "model_file": "new_york_best_model.joblib"
+    },
+    "paris": {
+        "model": "Random Forest",
+        "target_transform": "Log",
+        "MAE": 39.56397589486708,
+        "RMSE": 201.9468190479562,
+        "R2": 0.1458065181129361,
+        "model_file": "paris_best_model.joblib"
+    },
+    "rio_de_janeiro": {
+        "model": "HistGradientBoosting",
+        "target_transform": "Log",
+        "MAE": 520.7752601874853,
+        "RMSE": 4288.857263896826,
+        "R2": 0.020797972113298147,
+        "model_file": "rio_de_janeiro_best_model.joblib"
+    },
+    "rome": {
+        "model": "Random Forest",
+        "target_transform": "Log",
+        "MAE": 44.94978819176239,
+        "RMSE": 261.287834835452,
+        "R2": 0.22581238513643953,
+        "model_file": "rome_best_model.joblib"
+    },
+    "sydney": {
+        "model": "HistGradientBoosting",
+        "target_transform": "Log",
+        "MAE": 90.6181691173067,
+        "RMSE": 487.34618202872,
+        "R2": 0.1861676398206049,
+        "model_file": "sydney_best_model.joblib"
+    }
+}
