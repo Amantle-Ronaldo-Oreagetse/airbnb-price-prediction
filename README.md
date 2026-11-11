@@ -239,59 +239,51 @@ The complete dependency lists are provided in `requirements.txt` and `requiremen
 
 ### Installation
 
-Clone the repository and navigate to the project directory.
+1. Clone the repository
 
-Create a virtual environment:
+git clone https://github.com/Amantle-Ronaldo-Oreagetse/airbnb-price-prediction.git
+cd airbnb-price-prediction
 
-```bash
+2. Create a virtual environment
+
 python -m venv venv
-```
 
-Activate it on Windows:
+3. Activate the virtual environment (Windows PowerShell)
 
-```bash
-venv\Scripts\activate
-```
+.\venv\Scripts\Activate.ps1
 
-Install dependencies:
+4. Install dependencies
 
-```bash
-pip install -r requirements.txt
-```
+python -m pip install -r requirements.txt
 
-Place the supplied datasets in:
+Dataset Setup
 
-```text
+Place the assignment datasets and associated data dictionaries in:
+
 data/raw/
-```
 
-The original datasets are not included in this repository unless redistribution has been authorised.
+The original datasets are not included in this repository unless redistribution has been authorised. They must be obtained separately.
 
-### Generate a Prediction
+Generate a Prediction
 
 Run:
 
-```bash
 python src/10_predict_listing_price.py
-```
 
 The script demonstrates an example prediction using the Paris model.
 
 The inference interface supports the available city-specific models. The example input and selected city can be modified within the script.
 
-### Run Automated Tests
+Run Automated Tests
 
-```bash
 python -m unittest discover -s tests -v
-```
 
-### Verify Model Reproducibility
+Verify Model Reproducibility
 
-```bash
 python src/11_reproducibility_check.py
-```
 
 This checks whether the saved models reproduce their original final-test predictions.
+
 
 ## 8. Project Structure
 
